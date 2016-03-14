@@ -1,0 +1,1 @@
+This OWASP (Alpha Status) Project implements the Google SOAP Search API to assist with enumeration of TCP Ports (i.e. "TCP Input Text") and Cached Pages (i.e. "Download Indexed Cache") during the Reconnaissance Phase of a Penetration Test.

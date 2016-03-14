@@ -1,0 +1,10 @@
+## Command Line Arguments ##
+"Download Indexed Cache" requires two command line arguments, specifically:
+  1. `-query` - Google Search Query
+  1. `-start` - Index of the First Search Result
+
+For example, to retrieve the URL of "owasp.org" within the Google Cache being at Search Result 21 through to 31 `dic.pl -query owasp.org -start 21`
+
+In addition, _site:_ will automatically be appended before the FQDN supplied for `-query` command line argument e.g. `-query owasp.org` becomes _site:owasp.org_.
+
+In addition, `-start` is automatically converted to a zero based index i.e. _1_ becomes _0_.
